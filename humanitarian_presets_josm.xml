@@ -1,13 +1,25 @@
-
-
 <presets>
 	<group name="Humanitarian Features">
-	<item name="Roads">
-	  <text key="name" text="Name"/>
-	  <combo key="highway" text="Type" values="primary,secondary,tertiary,footway" delete_if_empty="true" />
-	  <combo key="Humanitarian:Road:OperationalStatus" text="Operational Status" values="Reported_Open,Reported_Restricted,Reported_CLosed,Unspecified" />
-	  </item>
+		<item name="Roads">
+			<text key="name" text="Name"/>
+			<combo key="highway" text="Type" values="primary,secondary,tertiary,footway" delete_if_empty="true" />
+			<combo key="Humanitarian:Road:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="Humanitarian:Road:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+		</item>
+		<item name="Transport Obstacles">
+			<combo key="type" text="Type" values="bridge_damage,road_damage,landslide_mudslide,debris,checkpoint,roadblock,unspecified" />
+			<combo key="Humanitarian:Obstacle:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="Humanitarian:Obstacle:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+		</item>
+		<item name="Health Facilities">
+			<text key="name" text="Name"/>
+			<combo key="type" text="Type" values="Hospital,Field_hospital" />
+			<combo key="Humanitarian:HealthFacility:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="Humanitarian:HealthFacility:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+		</item>
+		
 	</group>
 </presets>
 
-   
+
+
