@@ -1,0 +1,13 @@
+
+
+<presets>
+	<group name="Humanitarian Features">
+	<item name="Roads">
+	  <text key="name" text="Name"/>
+	  <combo key="highway" text="Type" values="primary,secondary,tertiary,footway" delete_if_empty="true" />
+	  <combo key="Humanitarian:Road:OperationalStatus" text="Operational Status" values="Reported_Open,Reported_Restricted,Reported_CLosed,Unspecified" />
+	  </item>
+	</group>
+</presets>
+
+   
