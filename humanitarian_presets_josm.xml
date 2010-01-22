@@ -3,21 +3,55 @@
 		<item name="Roads">
 			<text key="name" text="Name"/>
 			<combo key="highway" text="Type" values="primary,secondary,tertiary,footway" delete_if_empty="true" />
-			<combo key="Humanitarian:Road:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
-			<combo key="Humanitarian:Road:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<combo key="Humanitarian:Road:OperationalStatus" text="Operational Status" values="Open,Restricted,Closed,Unspecified" />
+			<combo key="Humanitarian:Road:OperationalStatusQuality" text="Quality of Op. Status Info" values="Reported,Confirmed,Unspecified" />
 		</item>
 		<item name="Transport Obstacles">
-			<combo key="type" text="Type" values="bridge_damage,road_damage,landslide_mudslide,debris,checkpoint,roadblock,unspecified" />
-			<combo key="Humanitarian:Obstacle:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
-			<combo key="Humanitarian:Obstacle:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<combo key="type" text="Type" values="Bridge damage,Road damage,Landslide Mudslide,Debris,Checkpoint,Roadblock,Unspecified" />
+			<combo key="Humanitarian:Obstacle:OperationalStatus" text="Operational Status" values="Open,Restricted,Closed,Unspecified" />
+			<combo key="Humanitarian:Obstacle:OperationalStatusQuality" text="Quality of Op. Status Info" values="Reported,Confirmed,Unspecified" />
 		</item>
 		<item name="Health Facilities">
 			<text key="name" text="Name"/>
-			<combo key="type" text="Type" values="Hospital,Field_hospital" />
-			<combo key="Humanitarian:HealthFacility:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
-			<combo key="Humanitarian:HealthFacility:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<combo key="type" text="Type" values="Hospital,Field Hospital,Health Centre-Clinic,Field Health Centre-Clinic,First Aid Centre,Field First Aid Centre" />
+			<combo key="Humanitarian:HealthFacility:OperationalStatus" text="Operational Status" values="Open,Limited operations,Closed,Unspecified" />
+			<combo key="Humanitarian:HealthFacility:OperationalStatusQuality" text="Quality of Op. Status Info" values="Reported,Confirmed,Unspecified" />
+			<combo key="Humanitarian:HealthFacility:OrganizationType" text="Type of Organization Responsible for Facility" values="Government facility-public,Government facility-not public,Private for profit,Private non profit" />
+			<text key="Humanitarian:HealthFacility:OrganizationName" text="Organization Name"/>
 		</item>
-		
+		<item name="Aerodromes">
+			<text key="name" text="Name"/>
+			<combo key="type" text="Type" values="Airfield,Airstrip,Fixed HLZ,Improvised HLZ,Unspecified" />
+			<combo key="Humanitarian:Aerodromes:OperationalStatus" text="Operational Status" values="Open,Restricted,Closed,Unspecified" />
+			<combo key="Humanitarian:Aerodromes:OperationalStatusQuality" text="Quality of Op. Status Info" values="Reported,Confirmed,Unspecified" />
+			<combo key="Humanitarian:Aerodromes:HumanitarianUse" text="Humanitarian Use of Aerodrome" values="Primary Hub,Secondary Hub,Final Delivery Point,Operationally Significant Location,Unspecified" />
+			<text key="Humanitarian:Aerodromes:PracticabilityDescription" text="Description of aerodrome practicability (largest aircraft landable)"/>
+			<combo key="Humanitarian:Aerodromes:TakeOffLandingType" text="Take Off and Landing Type" values="Runway,Heli Landing Zone" />
+			<text key="Humanitarian:Aerodromes:TakeOffLandingLength" text="Length (m) of runway or HLZ"/>
+			<text key="Humanitarian:Aerodromes:TakeOffLandingWidth" text="Width (m) of runway or HLZ"/>
+			<combo key="Humanitarian:Aerodromes:HLZType" text="For Heli Landing Zone, type of HLZ" values="Purpose-built,Sports-field park,Agricultural field,Car park,Rooftop,Open land,Unspecified" />
+			<text key="Humanitarian:Aerodromes:CargoHandling" text="Description of Cargo Handling Capability"/>
+		</item>
+		<item name="Warehouse Compounds">
+			<text key="name" text="Name"/>
+			<combo key="type" text="Type" values="Airfield,Airstrip,Fixed HLZ,Improvised HLZ,Unspecified" />
+			<combo key="Humanitarian:WarehouseCompounds:OperationalStatus" text="Operational Status" values="Open,Restricted,Closed,Unspecified" />
+			<combo key="Humanitarian:WarehouseCompounds:OperationalStatusQuality" text="Quality of Op. Status Info" values="Reported,Confirmed,Unspecified" />
+			<combo key="Humanitarian:WarehouseCompounds:HumanitarianUse" text="Humanitarian Use of Aerodrome" values="Primary Hub,Secondary Hub,Final Delivery Point,Operationally Significant Location,Unspecified" />
+			<text key="Humanitarian:WarehouseCompounds:StorageCapacityM3" text="Storage Capacity (cubic meters)"/>
+			<text key="Humanitarian:WarehouseCompounds:StorageCapacityM2" text="Storage Capacity (square meters)"/>
+			<text key="Humanitarian:WarehouseCompounds:StorageCapacityMT" text="Storage Capacity (metric tons)"/>
+			<text key="Humanitarian:WarehouseCompounds:CargoHandling" text="Description of Cargo Handling Capability"/>
+			<check key="Humanitarian:WarehouseCompounds:HasTempStorage" text="Facility has temperature controlled storage?" default="off" />
+		</item>
+		<item name="Fuel Supply Points">
+			<text key="name" text="Name"/>
+			<combo key="Humanitarian:FuelSupplyPoints:OperationalStatus" text="Operational Status" values="Open,Restricted,Closed,Unspecified" />
+			<combo key="Humanitarian:FuelSupplyPoints:OperationalStatusQuality" text="Quality of Op. Status Info" values="Reported,Confirmed,Unspecified" />
+			<text key="Humanitarian:FuelSupplyPoints:FuelStorageCapacity" text="Fuel Storage Capacity (specify units)"/>
+			<combo key="Humanitarian:FuelSupplyPoints:FuelStorageType" text="Drums,Soft-Storage Bladder,Mobile Storage,Fixed Storage,Multiple Types,Unspecified" />
+			<text key="Humanitarian:FuelSupplyPoints:FuelStorageDesc" text="Description of Fuel Storage"/>	
+		</item>
 	</group>
 </presets>
 
