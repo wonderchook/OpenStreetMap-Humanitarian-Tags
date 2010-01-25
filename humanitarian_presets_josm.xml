@@ -3,15 +3,15 @@
 		<item name="Roads">
 			<text key="name" text="Name"/>
 			<combo key="highway" text="Type" values="primary,secondary,tertiary,footway,track,unspecified" delete_if_empty="true" />
-			<combo key="Humanitarian:Road:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
-			<combo key="Humanitarian:Road:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<combo key="operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
 			<combo key="Humanitarian:Road:Practicability" text="Practicaility" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_less_than_20mt,unspecified" />
 			<text key="geometry_source_type" text="Geometry Source Type" />
 			<text key="attribute_source_type" text="Attribute Source Type" />
 		</item>
 		<item name="Transport Obstacles">
 			<combo key="type" text="Type" values="bridge_damage,road_damage,landslide,mudslide,debris,checkpoint,roadblock,unspecified" />
-			<combo key="Humanitarian:Obstacle:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
 			<combo key="Humanitarian:Obstacle:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
 			<text key="geometry_source_type" text="Geometry Source Type" />
 			<text key="attribute_source_type" text="Attribute Source Type" />
@@ -19,16 +19,16 @@
 		<item name="Health Facilities">
 			<text key="name" text="Name"/>
 			<combo key="type" text="Type" values="hospital,field_hospital,health_centre-clinic,field_health_centre-clinic,first_aid_centre,field_first_aid_centre" />
-			<combo key="Humanitarian:HealthFacility:OperationalStatus" text="Operational Status" values="open,limited_operations,closed,unspecified" />
-			<combo key="Humanitarian:HealthFacility:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<combo key="operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
 			<combo key="Humanitarian:HealthFacility:OrganizationType" text="Type of Organization Responsible for Facility" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
 			<text key="Humanitarian:HealthFacility:OrganizationName" text="Organization Name"/>
 		</item>
 		<item name="Aerodromes">
 			<text key="name" text="Name"/>
 			<combo key="type" text="Type" values="airfield,airstrip,fixed_hlz,improvised_hlz,unspecified" />
-			<combo key="Humanitarian:Aerodromes:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
-			<combo key="Humanitarian:Aerodromes:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<combo key="operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
 			<combo key="Humanitarian:Aerodromes:HumanitarianUse" text="Humanitarian Use of Aerodrome" values="primary_hub,secondary_hub,final_delivery_point,operationally_significant_location,unspecified" />
 			<text key="Humanitarian:Aerodromes:PracticabilityDescription" text="Description of aerodrome practicability (largest aircraft landable)"/>
 			<combo key="Humanitarian:Aerodromes:TakeOffLandingType" text="Take Off and Landing Type" values="runway,heli_landing_zone" />
@@ -40,8 +40,8 @@
 		<item name="Warehouse Compounds">
 			<text key="name" text="Name"/>
 			<combo key="type" text="Type" values="airfield,airstrip,fixed_hlz,improvised_hlz,unspecified" />
-			<combo key="Humanitarian:WarehouseCompounds:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
-			<combo key="Humanitarian:WarehouseCompounds:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<combo key="operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
 			<combo key="Humanitarian:WarehouseCompounds:HumanitarianUse" text="Humanitarian Use of Aerodrome" values="primary_hub,secondary_hub,final_delivery_point,operationally_significant_location,unspecified" />
 			<text key="Humanitarian:WarehouseCompounds:StorageCapacityM3" text="Storage Capacity (cubic meters)"/>
 			<text key="Humanitarian:WarehouseCompounds:StorageCapacityM2" text="Storage Capacity (square meters)"/>
@@ -51,27 +51,57 @@
 		</item>
 		<item name="Fuel Supply Points">
 			<text key="name" text="Name"/>
-			<combo key="Humanitarian:FuelSupplyPoints:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
-			<combo key="Humanitarian:FuelSupplyPoints:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<combo key="type" text="Fuel Supply Points" values="fuel_supply_points" />
+			<combo key="operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
 			<text key="Humanitarian:FuelSupplyPoints:FuelStorageCapacity" text="Fuel Storage Capacity (specify units)"/>
-			<combo key="Humanitarian:FuelSupplyPoints:FuelStorageType" text="drums,soft-storage_bladder,mobile_storage,fixed_storage,multiple_types,unspecified" />
-			<text key="Humanitarian:FuelSupplyPoints:FuelStorageDesc" text="Description of Fuel Storage"/>	
-		</item>
-		<item name="Fuel Supply Points">
-			<text key="name" text="Name"/>
-			<combo key="Humanitarian:FuelSupplyPoints:OperationalStatus" text="Operational Status" values="open,restricted,closed,unspecified" />
-			<combo key="Humanitarian:FuelSupplyPoints:OperationalStatusQuality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
-			<text key="Humanitarian:FuelSupplyPoints:FuelStorageCapacity" text="Fuel Storage Capacity (specify units)"/>
-			<combo key="Humanitarian:FuelSupplyPoints:FuelStorageType" text="drums,soft-storage_bladder,mobile_storage,fixed_storage,multiple_types,unspecified" />
+			<combo key="Humanitarian:FuelSupplyPoints:FuelStorageType" text="Fuel Storage Type" values="drums,soft-storage_bladder,mobile_storage,fixed_storage,multiple_types,unspecified" />
 			<text key="Humanitarian:FuelSupplyPoints:FuelStorageDesc" text="Description of Fuel Storage"/>	
 		</item>
 		<item name="Fuel Depot">
 			<text key="name" text="Name"/>
-			
+			<text key="UID" text="UID" />
+			<text key="addr:street" text="Street Name" />
+			<text key="addr:house_number" text="Building Number" />
+			<text key="addr:city" text="City" />
+			<text key="ward" text="Ward" />
+			<text key="area" text="Area" />
+			<text key="admin1_departement" text="Admin1 Departement" />
+			<text key="sar_sector" text="SAR Sector" />
+			<text key="mgrs_grid_25k" text="MGRS GRID 25k" />
+			<text key="fuel_storage_capacity_description" text="Fuel Storage Capacity Description" />
+			<text key="fuel_type_description" text="Fuel Type Description" />
+			<combo key="operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<combo key="type" text="Fuel Depot" values="fuel_depot" />
+			<text key="Humanitarian:FuelSupplyPoints:FuelStorageCapacity" text="Fuel Storage Capacity (specify units)"/>
+			<combo key="Humanitarian:FuelSupplyPoints:FuelStorageType" text="drums,soft-storage_bladder,mobile_storage,fixed_storage,multiple_types,unspecified" />
+			<text key="Humanitarian:FuelSupplyPoints:FuelStorageDesc" text="Description of Fuel Storage"/>	
+			<text key="geometry_source_type" text="Geometry Source Type" />
+			<text key="attribute_source_type" text="Attribute Source Type" />
 		</item>
 		<item name="Internally Displaced Persons (IDPs) Site">
 			<text key="name" text="Name"/>
-			
+			<text key="UID" text="UID" />
+			<text key="addr:street" text="Street Name" />
+			<text key="addr:house_number" text="Building Number" />
+			<text key="addr:city" text="City" />
+			<text key="ward" text="Ward" />
+			<text key="area" text="Area" />
+			<text key="admin1_departement" text="Admin1 Departement" />
+			<text key="sar_sector" text="SAR Sector" />
+			<text key="mgrs_grid_25k" text="MGRS GRID 25k" />
+			<combo key="assessed_by_shelter_cluster" text="Assessed by Shelter Cluster (Y/N)" values="yes,no" />
+			<combo key="operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
+			<combo key="operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+			<text key="population_in_area" text="Population in Area" />
+			<text key="population_in_camp" text="Population in Camp" />
+			<combo key="condition" text="Condition" values="building,tents,sheets,none,unspecified" />
+			<combo key="structural_safety" text="Structural Safety" values="open_area,enclosed_area,non-enclosed_building,enclosed_building,unspecified" />
+			<text key="organization" text="Organiziation" />
+			<combo key="sustained_access_to_potable_water" text="Sustained Access to Potable Water" values="yes,no,unspecified" />
+			<combo key="sustained_access_to grey_water" text="Sustained Access to Grey Water" values="yes,no,unspecified" />
+			<combo key="access_to_site" text="Access to Site" values="air_only,non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_less_than_20mt,unspecified" />
 		</item>
 		<item name="Humanitarian Point Of Interest">
 			<combo key="Humanitarian:POI:Type" text="Humanitarian POI Type" value="airdrop_zone,food_distribution_point,water_dstribution_point,nfi_distribution_point,domestic_fuel_distribution_point,cemetary,common_grave,morgue" />
