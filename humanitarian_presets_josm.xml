@@ -104,7 +104,7 @@
 			<combo key="access_to_site" text="Access to Site" values="air_only,non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_less_than_20mt,unspecified" />
 		</item>
 		<item name="Humanitarian Point Of Interest">
-			<combo key="Humanitarian:POI:Type" text="Humanitarian POI Type" value="airdrop_zone,food_distribution_point,water_dstribution_point,nfi_distribution_point,domestic_fuel_distribution_point,cemetary,common_grave,morgue" />
+			<combo key="humanitarian:type" text="Humanitarian POI Type" value="airdrop_zone,food_distribution_point,water_dstribution_point,nfi_distribution_point,domestic_fuel_distribution_point,cemetary,common_grave,morgue" />
 			<text key="geometry_source_type" text="Geometry Source Type" />
 			<text key="attribute_source_type" text="Attribute Source Type" />
 		</item>
