@@ -1,0 +1,63 @@
+<layouts>
+	<layout name="root">
+  		<row>
+   			<button type="voicerec" label="Voice record" icon="voice_32x32" />
+			<button type="picture" label="Take picture" icon="camera_32x32" />
+			<button type="textnote" label="Text note" icon="text_32x32" />
+  		</row>
+		<row>
+			<button type="page" label="Roads" icon="button_misc" targetlayout="roads" />
+			<button type="page" label="Health" icon="button_misc" targetlayout="health" />
+			<button type="page" label="Obstacles" icon="button_misc" targetlayout="obstacles" />
+		</row>
+		<row>
+			<button type="tag" label="IDP" icon="button_misc" />
+			<button type="page" label="Fuel" icon="button_misc" targetlayout="fuel" />
+			<button type="page" label="Warehouse" icon="button_misc" targetlayout="warehouse" />
+		</row>
+ 	</layout>
+	<layout name="roads">
+		<row>
+			<button type="tag" label="primary" icon="button_misc" />
+			<button type="tag" label="secondary" icon="button_misc" />
+			<button type="tag" label="tertiary" icon="button_misc" />
+		</row>
+		<row>
+			<button type="tag" label="footway" icon="button_misc" />
+			<button type="tag" label="track" icon="button_misc" />
+			<button type="tag" label="unspecified" icon="button_misc" />
+		</row>
+	</layout>
+	<layout name="health">
+		<row>
+			<button type="tag" label="Specialized_Hospital" icon="button_misc" />
+			<button type="tag" label="Hospital" icon="button_misc" />
+			<button type="tag" label="Field_Hospital" icon="button_misc" />
+		</row>
+		<row>
+			<button type="tag" label="CS-Health_center" icon="button_misc" />
+			<button type="tag" label="CAL-Health_center_with_beds" icon="button_misc" />
+			<button type="tag" label="CSL-Health_center_without_beds" icon="button_misc" />
+		</row>
+	</layout>
+	<layout name="obstacles">
+		<row>
+			<button type="tag" label="bridge_damage" icon="button_misc" />
+			<button type="tag" label="road_damage" icon="button_misc" />
+			<button type="tag" label="landslide" icon="button_misc" />
+		</row>
+		<row>
+			<button type="tag" label="mudslide" icon="button_misc" />
+			<button type="tag" label="debris" icon="button_misc" />
+			<button type="tag" label="checkpoint" icon="button_misc" />
+		</row>
+		<row>
+			<button type="tag" label="roadblock" icon="button_misc" />
+			<button type="tag" label="unspecified" icon="button_misc" />
+		</row>
+	</layout>
+	<layout name="fuel">
+	</layout>
+	<layout name="warehouse">
+	</layout>
+</layouts>
