@@ -1,0 +1,330 @@
+<presets>
+	<group name="IOM Kiosk Humanitarian Features">
+		<item name="Shelter">
+			<combo key="amenity" text="Shelter" values="shelter,water_proof_shelter,communal_cooking_area"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Spring" type="node">
+			<text key="natural" value="spring"/>
+			<combo key="water_type" text="Water Type" values="grey_water,drinking_water,industrial_water,unspecified"/>
+			<combo key="pump_type" text="Pump Type" values="manual,powered_network,powered_solar,powered_wind,powered_fuel,powered_hydraulic,unspecified"/>
+			<text key="quality" text="Quality"/>
+			<text key="average_waiting_time" text="Average Waiting Time"/>
+			<text key="fee" text="Fee"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Drinking Water">
+			<text key="amenity" value="drinking_water"/>
+			<combo key="water_type" text="Water Type" values="grey_water,drinking_water,industrial_water,unspecified"/>
+			<combo key="pump_type" text="Pump Type" values="manual,powered_network,powered_solar,powered_wind,powered_fuel,powered_hydraulic,unspecified"/>
+			<text key="quality" text="Quality"/>
+			<text key="average_waiting_time" text="Average Waiting Time"/>
+			<text key="fee" text="Fee"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator_id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Tank">
+			<text key="man_made" value="tank"/>
+			<combo key="water_type" text="Water Type" values="grey_water,drinking_water,industrial_water,unspecified"/>
+			<combo key="pump_type" text="Pump Type" values="manual,powered_network,powered_solar,powered_wind,powered_fuel,powered_hydraulic,unspecified"/>
+			<text key="quality" text="Quality"/>
+			<text key="average_waiting_time" text="Average Waiting Time"/>
+			<text key="fee" text="Fee"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Reservoir">
+			<text key="landuse" value="reservoir"/>
+			<combo key="water_type" text="Water Type" values="grey_water,drinking_water,industrial_water,unspecified"/>
+			<combo key="pump_type" text="Pump Type" values="manual,powered_network,powered_solar,powered_wind,powered_fuel,powered_hydraulic,unspecified"/>
+			<text key="quality" text="Quality"/>
+			<text key="average_waiting_time" text="Average Waiting Time"/>
+			<text key="fee" text="Fee"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Bladder">
+			<text key="man_made" value="bladder"/>
+			<combo key="water_type" text="Water Type" values="grey_water,drinking_water,industrial_water,unspecified"/>
+			<combo key="pump_type" text="Pump Type" values="manual,powered_network,powered_solar,powered_wind,powered_fuel,powered_hydraulic,unspecified"/>
+			<text key="quality" text="Quality"/>
+			<text key="average_waiting_time" text="Average Waiting Time"/>
+			<text key="fee" text="Fee"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Water Well">
+			<text key="man_made" value="water_well"/>
+			<combo key="water_type" text="Water Type" values="grey_water,drinking_water,industrial_water,unspecified"/>
+			<combo key="pump_type" text="Pump Type" values="manual,powered_network,powered_solar,powered_wind,powered_fuel,powered_hydraulic,unspecified"/>
+			<text key="quality" text="Quality"/>
+			<text key="average_waiting_time" text="Average Waiting Time"/>
+			<text key="fee" text="Fee"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Borehole">
+			<text key="man_made" value="borehole"/>
+			<combo key="water_type" text="Water Type" values="grey_water,drinking_water,industrial_water,unspecified"/>
+			<combo key="pump_type" text="Pump Type" values="manual,powered_network,powered_solar,powered_wind,powered_fuel,powered_hydraulic,unspecified"/>
+			<text key="quality" text="Quality"/>
+			<text key="average_waiting_time" text="Average Waiting Time"/>
+			<text key="fee" text="Fee"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Toilets">
+			<text key="amenity" text="toilet"/>
+			<combo key="gender" text="Access" values="male,female,disabled"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Shower">
+			<text key="amenity" text="shower"/>
+			<combo key="gender" text="Access" values="male,female,disabled"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Land Fill">
+			<text key="landuse" value="landfill"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Waste Basket">
+			<text key="amenity" value="waste_basket"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Waste Disposal">
+			<text key="amenity" value="waste_disposal"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Community Information Kiosk">
+			<text key="amenity" value="community_information_kiosk"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Information">
+			<text key="tourism" value="information"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Information Board">
+			<text key="information" value="board"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Communal Cooking Area">
+			<text key="amenity" value="communal_cooking_area"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Camp Resident Committee">
+			<text key="office" value="camp_resident_committee"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Shelter">
+			<text key="amenity" value="shelter"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Tent">
+			<text key="amenity" value="tent"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Hazard Mitigation Infrastructure">
+			<text key="manmade" text="drainage"/>
+			<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified"/>
+			<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified"/>
+			<text key="operator" text="Operator"/>
+			<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit"/>
+			<text key="operator id" text="Operator ID"/>
+			<text key="phonebusiness" text="Phone - Business"/>
+			<text key="email" text="Email"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+		<item name="Hazards">
+			<combo key="natural" text="Hazard" values="floods,standing_water,water,landslide,mud"/>
+			<text key="geometry_source_name" text="Geometry Source Name"/>
+			<text key="geometry_source_type" text="Geometry Source Type"/>
+			<text key="geometry_source_date" text="Geometry Source Date"/>
+			<text key="attribute_source_name" text="Attribute Source Name"/>
+			<text key="attribute_source_type" text="Attribute Source Type"/>
+			<text key="attribute_source_date" text="Attribute Source Date"/>
+		</item>
+	</group>
+</presets>
